@@ -1,0 +1,234 @@
+/* RESET */
+* {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* ---------- */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8 url("assets/images/bg-white.png") repeat;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333;
+}
+
+p {
+	margin-bottom: .5em;
+}
+
+header {
+	width: 100%;
+	display: table;
+	position: absolute;
+	z-index: 50;
+}
+	#header-logo {
+		width: 33%;
+		max-width: 160px;
+		float: left;
+		clear: left;
+	}
+		#header-logo .maite-logo {
+			fill: #413f44;
+		}
+	nav {
+		float: right;
+		clear: right;
+	}
+
+section#hero {
+	background: #4d4a51 url("assets/images/bg-header.png") repeat;
+	padding: 50em 0;
+	margin-bottom: -10em;
+}
+
+.internal-wrap {
+	width: 96%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#text {
+	display: block;
+	width: 100%;
+	background-color: #f8f8f8;
+	padding: 175px 0;
+	position: relative;
+	z-index: 25;
+	-ms-transform: skewY(-5deg); /* IE 9 */
+	-webkit-transform: skewY(-5deg); /* Safari */
+	transform: skewY(-5deg); /* Standard syntax */
+}
+	#anti-skew {
+		-ms-transform: skewY(5deg); /* IE 9 */
+		-webkit-transform: skewY(5deg); /* Safari */
+		transform: skewY(5deg); /* Standard syntax */
+	}
+		#txt-left {
+			width: 33%;
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 2.6em;
+			line-height: 1.25em;
+		}
+		#txt-right {
+			width: 58%;
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 8%;
+		}
+
+
+#quote {
+	font-family: 'Reenie Beanie', cursive;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	z-index: 20;
+	overflow: hidden;
+	padding-bottom: 10em;
+	margin-top: -10em;
+}
+	#quote-skew {
+		background: url(assets/images/bg-quote.jpg) no-repeat center center;
+		background-size: cover;
+		padding: 40em 0 15em;
+		-ms-transform: skewY(5deg);
+		-webkit-transform: skewY(5deg);
+		transform: skewY(5deg);
+		margin-top: -14em;
+	}
+		#quote-wrap {
+			width: 96%;
+			max-width: 700px;
+			margin: 0 auto;
+			-ms-transform: skewY(-5deg);
+			-webkit-transform: skewY(-5deg);
+			transform: skewY(-5deg);
+		}
+			#quote-wrap h2 {
+				font-size: 3em;
+				line-height: 1.05em;
+			}
+			#quote-wrap p {
+				font-size: 1.5em;
+				line-height: 1.25em;
+				color: #aba8af;
+			}
+
+#cv {
+
+}
+	h4 {
+		font-size: 1.4em;
+		font-weight: 600;
+		line-height: 1.15em;
+		color: #4d4a51;
+	}
+		h4:after {
+			content: "";
+			width: 60px;
+			height: 2px;
+			display: block;
+			background-color: #9d9c70;
+			margin: 1em 0 2.25em;
+		}
+
+	#main-cv {
+		width: 96%;
+		max-width: 620px;
+	}
+		.cv-logo {
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0,0,0,.18);
+			border-radius: 3px;
+		}
+		.cv-content {
+			width: 100%;
+			max-width: 460px;
+			padding: 20px 20px 20px 40px;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0,0,0,.18);
+			border-radius: 5px;
+		}
+
+	.secondary-cv {
+		width: 47%;
+		margin: 1%;
+		display: inline-block;
+		vertical-align: top;
+	}
+		.secondary-cv .cv-logo {
+			width: 80%;
+			max-width: 300px;
+			margin: 0 auto 1em;
+		}
+		.secondary-cv .cv-content {
+			padding: 20px;
+		}
+
+ul {
+	padding-left: 1.5em;
+}
+ul li {
+	list-style-type: disc;
+}
+
+
+
+
+
+
+
+
