@@ -72,6 +72,7 @@ header {
 	display: table;
 	position: absolute;
 	z-index: 50;
+	padding: 2em 2em 0;
 }
 	#header-logo {
 		width: 33%;
@@ -89,9 +90,51 @@ header {
 
 section#hero {
 	background: #4d4a51 url("assets/images/bg-header.png") repeat;
-	padding: 50em 0;
 	margin-bottom: -10em;
+	color: #fff;
 }
+	section#hero .internal-wrap {
+		max-width: 1200px;
+		background: url("assets/images/maite-profile.png") no-repeat left bottom;
+		background-size: contain;
+		padding: 220px 0 15em;
+		display: table;
+	}
+	#hero-content {
+		width: 96%;
+		max-width: 500px;
+		margin-right: 120px;
+		display: block;
+		font-size: 1.2em;
+		line-height: 1.25em;
+		float: right;
+		clear: both;
+	}
+		#hero-content h1 {
+			font-size: 6em;
+			line-height: .8em;
+			text-transform: uppercase;
+		}
+		#hero-links {
+			padding: 1.5em 0 1.75em;
+		}
+			#hero-links a {
+				font-size: 1.35em;
+				text-decoration: none;
+				line-height: 1em;
+				color: #f3f3de;
+				display: inline-block;
+				background-color: #9d9c70;
+				border-radius: 3px;
+				padding: .7em 1.6em;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+				#hero-links a:hover {
+					color: #fff;
+					background-color: #787756;
+				}
+
 
 .internal-wrap {
 	width: 96%;
@@ -218,12 +261,12 @@ section#hero {
 			padding: 20px;
 		}
 
-ul {
+#cv ul {
 	padding-left: 1.5em;
 }
-ul li {
-	list-style-type: disc;
-}
+	#cv ul li {
+		list-style-type: disc;
+	}
 
 
 

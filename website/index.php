@@ -34,13 +34,15 @@
 	</header>
 
 	<section id="hero">
-		<div id="header-content">
-			<h1>Maïté Indacochéa</h1>
-			<div id="header-links">
-				<a href="javascript:void(0);">Rédactrice</a>
-				<a href="javascript:void(0);">Traductrice</a>
+		<div class="internal-wrap">
+			<div id="hero-content">
+				<h1>Maïté Indacochéa</h1>
+				<div id="hero-links">
+					<a href="javascript:void(0);">Rédactrice</a>
+					<a href="javascript:void(0);">Traductrice</a>
+				</div>
+				<p>Langagière polyvalente qui permet aux individus et aux entreprises de produire des communications riches, pertinentes et linguistiquement irréprochables, adaptées au Web.</p>
 			</div>
-			<p>Langagière polyvalente qui permet aux individus et aux entreprises de produire des communications riches, pertinentes et linguistiquement irréprochables, adaptées au Web.</p>
 		</div>
 	</section>
 
