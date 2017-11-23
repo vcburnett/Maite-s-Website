@@ -79,9 +79,7 @@
 				</div>
 				<div class="cv-content">
 					<h2>Rédactrice Web / Junior SEO</h2>
-					<div class="div-line"></div>
-					<h3 class="cv-company">Konversion <span class="date">Novembre 2016 à aujourd'hui</span></h3>
-					<div class="div-line"></div>
+					<h3 class="cv-company"><span class="the-company">Konversion</span> Novembre 2016 à aujourd'hui</h3>
 					<ul>
 						<li>Rédaction de contenu (EN/FR) dans le cadre de campagnes SEM</li>
 						<li>Élaboration et mise en œuvre de stratégies de contenu</li>
@@ -108,7 +106,7 @@
 				<div class="cv-content">
 					<h2>Rédactrice Web</h2>
 					<div class="div-line"></div>
-					<h3 class="cv-company">BJMédia <span class="date">Janvier à novembre 2016</span></h3>
+					<h3 class="cv-company"><span class="the-company">BJMédia</span> Janvier à novembre 2016</h3>
 					<div class="div-line"></div>
 					<ul>
 						<li>Rédaction de contenu on-site (EN/FR)</li>
@@ -134,7 +132,7 @@
 				<div class="cv-content">
 					<h2>Rédactrice Web</h2>
 					<div class="div-line"></div>
-					<h3 class="cv-company">OTTIAQ <span class="date">Mars à novembre 2017</span></h3>
+					<h3 class="cv-company"><span class="the-company">OTTIAQ</span> Mars à novembre 2017</h3>
 					<div class="div-line"></div>
 					<ul>
 						<li>Conférence à l’occasion du 25e congrès de l’Ordre : « S’épanouir sur le marché linguistique, par où commencer? » avec Mathieu Gautier, trad. a. et Président d’Élite Communication</li>
@@ -146,17 +144,39 @@
 
 	</div>
 
+	<div id="contact-bg-top"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 122" style="enable-background:new 0 0 1200 122;" xml:space="preserve"><g><path id="contact-bg-top-svg" d="M0,122v-17L1200,0v122H0z"/></g></svg></div>
 	<div id="contact">
 		<div id="contact-wrap">
 			<p>Pour toutes questions ou demande d'information</p>
 			<p class="txt-ecrivez">écrivez-moi!</p>
 			<form>
 
+				<span class="input input--isao">
+					<input class="input__field input__field--isao" type="text" id="input-38">
+					<label class="input__label input__label--isao" for="input-38" data-content="Nom">
+						<span class="input__label-content input__label-content--isao">Nom</span>
+					</label>
+				</span>
+				<span class="input input--isao">
+					<input class="input__field input__field--isao" type="text" id="input-39">
+					<label class="input__label input__label--isao" for="input-39" data-content="Courriel">
+						<span class="input__label-content input__label-content--isao">Courriel</span>
+					</label>
+				</span>
+				<span class="input input--isao">
+					<textarea class="input__field input__field--isao" type="text" id="input-40"></textarea>
+					<label class="input__label input__label--isao" for="input-40" data-content="Message">
+						<span class="input__label-content input__label-content--isao">Message</span>
+					</label>
+				</span>
+				<input type="submit">
 			</form>
 			<div id="contact-txt">
 				<a href="javascript:void(0);" class="btn-linkedin">
-					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 148.3 36" style="enable-background:new 0 0 148.3 36;" xml:space="preserve">
-						<path class="st0" d="M111.4,13.5h5.3v17.2h-5.3V13.5zM114.1,5c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1C117.2,6.3,115.8,5,114.1,5z M130.3,13.1c-2.6,0-4.3,1.4-5.1,2.8h-0.1v-2.3h-5.1v17.2h5.3v-8.5c0-2.2,0.4-4.4,3.2-4.4c2.7,0,2.8,2.6,2.8,4.6v8.4h5.3v-9.4C136.7,16.6,135.7,13.1,130.3,13.1z"/>
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.9" style="enable-background:new 0 0 25.6 25.9;" xml:space="preserve">
+						<g>
+							<path class="li-icon" d="M0.4,8.5h5.3v17.2H0.4V8.5z M3.1,0C1.4,0,0,1.4,0,3.1s1.4,3.1,3.1,3.1s3.1-1.4,3.1-3.1C6.2,1.3,4.8,0,3.1,0z M19.3,8.1c-2.6,0-4.3,1.4-5.1,2.8h-0.1V8.6H9v17.2h5.3v-8.5c0-2.2,0.4-4.4,3.2-4.4c2.7,0,2.8,2.6,2.8,4.6v8.4h5.3v-9.4C25.7,11.6,24.7,8.1,19.3,8.1z"/>
+						</g>
 					</svg>
 				</a>
 				<p><span class="contact-label">t</span> (514) 924-9639</p>
