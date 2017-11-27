@@ -14,6 +14,30 @@
 <body>
 
 	<header>
+		<nav>
+			<ul>
+				<li><a href="javascript:void(0);">accueil</a></li>
+				<li><a href="javascript:void(0);">sur moi</a></li>
+				<li><a href="javascript:void(0);">mon cv</a></li>
+				<li><a href="javascript:void(0);">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero">
+		<div class="internal-wrap">
+			<div id="hero-content">
+				<h1>Maïté Indacochéa</h1>
+				<div id="hero-links">
+					<a href="page.php">Rédactrice</a>
+					<a href="page.php">Traductrice</a>
+				</div>
+				<p>Langagière polyvalente qui permet aux individus et aux entreprises de produire des communications riches, pertinentes et linguistiquement irréprochables, adaptées au Web.</p>
+			</div>
+		</div>
+		<div id="maite">
+			<img src="assets/images/maite-profile.png" alt="Maïté Indacochéa">
+		</div>
 		<div id="header-logo">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 491.1 304.6" style="enable-background:new 0 0 491.1 304.6;" xml:space="preserve">
 				<g>
@@ -23,15 +47,7 @@
 				</g>
 			</svg>
 		</div>
-		<nav>
-			<ul>
-				<li>accueil</li>
-				<li>sur moi</li>
-				<li>mon cv</li>
-				<li>contact</li>
-			</ul>
-		</nav>
-	</header>
+	</section>
 
 	<div id="page-wrapper">
 		<div id="title">

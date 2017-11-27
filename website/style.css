@@ -78,6 +78,17 @@ header {
 		float: right;
 		clear: right;
 	}
+		nav a {
+			font-size: 1.25em;
+			line-height: 1.5em;
+			color: #aba8af;
+			text-decoration: none;
+			-webkit-transition: .3s;
+			transition: .3s;
+		}
+			nav a:hover {
+				color: #fff;
+			}
 
 section#hero {
 	background: #4d4a51 url("assets/images/bg-header.png") repeat;
@@ -283,8 +294,9 @@ section#hero {
 
 	#main-cv {
 		width: 96%;
-		max-width: 460px;
+		max-width: 550px;
 		margin: 0 auto;
+		padding-left: 160px;
 	}
 		.cv-logo {
 			position: absolute;
@@ -301,7 +313,7 @@ section#hero {
 			}
 		.cv-content {
 			width: 100%;
-			max-width: 460px;
+			max-width: 540px;
 			padding: 20px 20px 20px 40px;
 			background-color: #fff;
 			box-shadow: 0 2px 5px rgba(0,0,0,.18);
@@ -324,6 +336,7 @@ section#hero {
 			box-shadow: none !important;
 		}
 		.secondary-cv .cv-content {
+			max-width: 460px;
 			padding: 20px;
 		}
 
@@ -679,6 +692,7 @@ footer {
 		max-width: 460px;
 		margin: 0 auto 3em;
 		display: block;
+		padding-left: 0;
 	}
 		.cv-content {
 			width: 100%;
