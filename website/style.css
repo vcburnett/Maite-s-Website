@@ -75,13 +75,16 @@ header {
 	padding: 2em 2em 0;
 }
 	nav {
+		text-align: right;
 		float: right;
 		clear: right;
 	}
 		nav a {
-			font-size: 1.25em;
-			line-height: 1.5em;
-			color: #aba8af;
+			font-size: .9em;
+			line-height: 1.9em;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #90879d;
 			text-decoration: none;
 			-webkit-transition: .3s;
 			transition: .3s;
@@ -162,6 +165,10 @@ section#hero {
 		#header-logo .maite-logo {
 			fill: #2c2c31;
 		}
+
+#page-header-logo {
+
+}
 
 .internal-wrap {
 	width: 96%;
@@ -364,13 +371,13 @@ section#hero {
 		display: block;
 	}
 	#contact-bg-top-svg {
-		fill: #40414e;
+		fill: #4d4a51;
 	}
 
 #contact {
 	color: #fff;
-	background: #40414e url("assets/images/stain.png") no-repeat center bottom;
-	padding: 110px 0 150px;
+	background: #4d4a51 url("assets/images/coffee-stain-contact.png") no-repeat center center;
+	padding: 110px 0;
 }
 	#contact-wrap {
 		width: 98%;
@@ -441,7 +448,7 @@ form {
 	width: 60%;
 	border: none;
 	border-radius: 0;
-	background: #48464a !important;
+	background: rgba(72,70,74, .8) !important;
 	color: #fff;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 }
@@ -594,7 +601,7 @@ input[type="submit"] {
 footer {
 	width: 100%;
 	display: table;
-	background-color: #333440;
+	background-color: #403e42;
 	padding: 1em 0;
 }
 	#ft-logo-wrap {
@@ -607,13 +614,13 @@ footer {
 			vertical-align: middle;
 		}
 			#ft-logo .maite-logo {
-				fill: #c6c7dd;
+				fill: #7b797e;
 			}
 		#ft-txt {
 			font-size: 1.3em;
 			text-transform: uppercase;
 			display: inline-block;
-			color: #c6c7dd;
+			color: #7b797e;
 			vertical-align: middle;
 			padding-left: .5em;
 		}
@@ -626,10 +633,66 @@ footer {
 		clear: right;
 		font-size: .75em;
 		line-height: 1em;
-		color: #86879d;
+		color: #7b797e;
 		padding-top: 2.4em;
 	}
 
+/* Page */
+#page-wrap {
+	padding: 13em 0 8em;
+	background: url("assets/images/coffee-stain-1.png") no-repeat;
+	background-position: 30% top;
+	background-size: 40%;
+}
+	.pg-left {
+		width: 33%;
+		display: inline-block;
+		text-align: right;
+		vertical-align: top;
+	}
+		.pg-left h1 {
+			color: #4d4a51;
+			font-family: 'Reenie Beanie', cursive;
+			font-size: 12em;
+			line-height: .65em;
+		}
+	.pg-right {
+		width: 62%;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 4%;
+	}
+		.tabs {
+			padding: 0 0 2em;
+		}
+			.tabs a {
+				color: #999;
+				font-size: 1.1em;
+				line-height: 1em;
+				text-decoration: none;
+				background-color: #eaeaea;
+				display: inline-block;
+				border-radius: 3px;
+				padding: .6em .85em;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+				.tabs a:hover {
+					background-color: #aaa;
+					color: #fff;
+				}
+				.tabs a.selected {
+					color: #fff !important;
+					background-color: #4d4a51 !important;
+					cursor: default;
+				}
+		.pg-right h2 {
+			color: #4d4a51;
+			font-size: 1.85em;
+			line-height: 1.25em;
+			font-weight: 600;
+			margin-bottom: .4em;
+		}
 
 
 /* ----- */
@@ -651,6 +714,13 @@ footer {
 	}
 	#maite {
 		left: -24%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	#page-wrap {
+		background-position: 13% top;
+		background-size: 50%;
 	}
 }
 
@@ -683,6 +753,10 @@ footer {
 	#maite {
 		width: 870px;
 		left: -210px;
+	}
+	#page-wrap {
+		background-position: 3% top;
+		background-size: 63%;
 	}
 }
 
@@ -720,6 +794,18 @@ footer {
 			width: 100%;
 			margin-left: 0;
 		}
+
+	.pg-left {
+		width: 25%;
+	}
+		.pg-left h1 {
+			font-size: 7em;
+			line-height: .65em;
+		}
+	.pg-right {
+		width: 70%;
+		margin-left: 4%;
+	}
 }
 
 @media screen and (max-width: 460px) {
@@ -762,6 +848,33 @@ footer {
 		#header-logo {
 			top: 1em;
 			left: 1em;
+		}
+
+	#contact {
+		background-size: 92%;
+	}
+
+	#page-wrap {
+		background-position: -60% top;
+		background-size: 85%;
+	}
+		.pg-left {
+			display: block;
+			width: 100%;
+		}
+			.pg-left h1 {
+				font-size: 4.5em;
+				line-height: 1em;
+				text-align: left;
+				margin-bottom: .4em;
+			}
+				.pg-left h1 br {
+					display: none;
+				}
+		.pg-right {
+			display: block;
+			width: 100%;
+			margin: 0;
 		}
 
 }
