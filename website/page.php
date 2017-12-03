@@ -16,10 +16,10 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="javascript:void(0);">accueil</a></li>
-				<li><a href="javascript:void(0);">sur moi</a></li>
-				<li><a href="javascript:void(0);">mon cv</a></li>
-				<li><a href="javascript:void(0);">contact</a></li>
+				<li><a href="index.php#hero" class="scroll">accueil</a></li>
+				<li><a href="index.php#text" class="scroll">sur moi</a></li>
+				<li><a href="index.php#cv" class="scroll">mon cv</a></li>
+				<li><a href="#contact" class="scroll">contact</a></li>
 			</ul>
 		</nav>
 	</header>

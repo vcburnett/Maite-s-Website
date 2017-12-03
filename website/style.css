@@ -70,7 +70,7 @@ p {
 header {
 	width: 100%;
 	display: table;
-	position: absolute;
+	position: fixed;
 	z-index: 50;
 	padding: 2em 2em 0;
 }
